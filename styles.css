@@ -1,0 +1,143 @@
+/* General Styling */
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for structured layout */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.govt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 5px solid #003366;
+}
+
+.left-logo img,
+.right-logo img {
+    height: 140px;
+}
+
+.header-text {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+/* Title Size */
+.main-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 65px;
+    margin-bottom: 5px;
+}
+
+.dept-name {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.board-name {
+    font-size: 26px;
+    color: #002060;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #002060;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 16px;
+}
+
+.nav-bar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+/* Flexbox Layout */
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Enlarged Image */
+.welcome-image {
+    flex: 1;
+    max-width: 55%;
+}
+
+.welcome-image img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    border: 2px solid #d62828;
+    border-radius: 20px 20px 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjusted Text Content */
+.welcome-content {
+    flex: 1;
+    max-width: 40%;
+}
+
+/* Center align heading */
+.center-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Center align & bold quote */
+.center-bold-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Left align key highlights */
+.left-align {
+    text-align: left;
+    font-size: 22px;
+}

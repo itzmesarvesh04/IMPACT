@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.govt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-bottom: 5px solid #003366;
+}
+
+.left-logo img,
+.right-logo img {
+    height: 120px;
+}
+
+.header-text {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.main-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin: 0;
+}
+
+.dept-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.board-name {
+    font-size: 22px;
+    color: #002060;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #002060;
+    padding: 10px 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-bar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.welcome-image {
+    flex: 1;
+    max-width: 20%; /* Reduce image size */
+}
+
+.welcome-image img {
+    width: 200px; /* Explicit width */
+    height: auto;
+    object-fit: contain;
+    border: 2px solid #d62828;
+    border-radius: 20px 20px 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+}
+
+.welcome-section {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Image takes 1 part, text takes 2 parts */
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.welcome-image img {
+    width: 100%; /* Make sure the image is responsive */
+    height: auto;
+    max-width: 250px; /* Limit image size */
+    border: 2px solid #d62828;
+    border-radius: 20px 20px 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content {
+    text-align: right;
+}
+
+.welcome-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+}
+
+.welcome-content p,
+.welcome-content h3,
+.welcome-content ul {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7;
+}
+
+.welcome-content ul {
+    list-style-position: inside;
+}
+
+
